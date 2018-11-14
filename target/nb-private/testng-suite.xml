@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_TestMavenTraining_jar_1.0-SNAPSHOT">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+    <suite-files>
+        <suite-file path="./junit-suite.xml" />
+    </suite-files>
+
+    <test name="TimeOut">
+        <classes>
+            <class name="test.timeout.TimeOutTest" />
+            <class name="test.timeout.TimeOutFromXmlTest"/>
+            <class name="test.timeout.TimeOutThreadLocalSampleTest"/>
+        </classes>
+    </test>
+    -->
+    
+    <test name="KovPackChromeDriver suite">
+        <classes>
+            <class name="KovPackChromeDriver.TestNGSample">
+                <parameter name="ValMessage1" value="Password should be provided" />
+                <methods>
+                    <include name="SigninTest" />
+                    <include name="ValidationTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

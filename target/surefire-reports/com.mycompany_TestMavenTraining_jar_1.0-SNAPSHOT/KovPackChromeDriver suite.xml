@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP32" name="KovPackChromeDriver.TestNGSample" tests="3" failures="0" timestamp="5 Sep 2018 07:09:03 GMT" time="0.037" errors="0">
+  <testcase name="SigninTest" time="0.005" classname="KovPackChromeDriver.TestNGSample"/>
+  <testcase name="SigninTest" time="0.0" classname="KovPackChromeDriver.TestNGSample"/>
+  <testcase name="ValidationTest" time="0.001" classname="KovPackChromeDriver.TestNGSample"/>
+</testsuite>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.mycompany_TestMavenTraining_jar_1.0-SNAPSHOT" duration-ms="37" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+    <groups>
+    </groups>
+    <test name="KovPackChromeDriver suite" duration-ms="37" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+      <class name="KovPackChromeDriver.TestNGSample">
+        <test-method status="PASS" signature="launchBrowser()" name="launchBrowser" is-config="true" duration-ms="16" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenUrl()" name="OpenUrl" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="SigninTest(java.lang.String, java.lang.String)" name="SigninTest" duration-ms="5" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="methodSetUp()" name="methodSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="methodTeardown()" name="methodTeardown" is-config="true" duration-ms="1" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="SigninTest(java.lang.String, java.lang.String)" name="SigninTest" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pd]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="methodSetUp()" name="methodSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="methodTeardown()" name="methodTeardown" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="ValidationTest(java.lang.String)" name="ValidationTest" duration-ms="1" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password should be provided]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="methodSetUp()" name="methodSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="CloseBrowser()" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="methodTeardown()" name="methodTeardown" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+        <test-method status="PASS" signature="ClassTearDown()" name="ClassTearDown" is-config="true" duration-ms="0" started-at="2018-09-05T12:39:03Z" finished-at="2018-09-05T12:39:03Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
