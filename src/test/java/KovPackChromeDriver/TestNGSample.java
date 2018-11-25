@@ -45,7 +45,7 @@ public class TestNGSample {
     {
         
         
-        System.out.println("In Sign In test..");
+        System.out.println("In Sign In test...");
         System.out.println("Login: " + Login);
         System.out.println("Login: " + Password);
     }
